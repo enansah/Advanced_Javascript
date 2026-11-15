@@ -27,8 +27,8 @@ if (exerciseTimeMins < 30) {
 
 // console.log(message)
 
-const playerGuess=9
-const correctAnswer =6
+// const playerGuess=9
+// const correctAnswer =6
 
 /* let message = ''
 if (playerGuess === correctAnswer) {
@@ -37,6 +37,6 @@ if (playerGuess === correctAnswer) {
   message = "Not quite, try again!"
 } */
 
-const message = playerGuess <= correctAnswer ? "Correct!" : "Wrong!"
+// const message = playerGuess <= correctAnswer ? "Correct!" : "Wrong!"
 
-console.log(message)
+// console.log(message)
