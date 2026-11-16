@@ -26,6 +26,12 @@ console.log(getMatchingTripsArr(interplanetaryDestinationsArr, 'exotic')) */
 // This means that you can use functions and variables 
 // before they are declared in the code.
 
+
+
+
+
+
+
 // For of loop is used to iterate over the values of an iterable object like an array, while for in loop is used to iterate over the properties of an object.
 /* const characters = [
     {
@@ -55,6 +61,10 @@ for (let character of characters){
 }
  */
 
+
+
+
+
 // For in loop is used to iterate over the properties of an object, while for of loop is used to iterate over the values of an iterable object like an array.
 
 /* for (let property in character1) {
@@ -62,11 +72,22 @@ for (let character of characters){
 } */
 
 
+
+
+
 //forEach is used to iterate over arrays and perform a function on each element, 
 // while map is used to create a new array by transforming each element of the original array based on a provided function.
 
 /* characters.forEach(function(character, index){
     console.log(index, character.title) */
+
+
+
+
+
+
+
+
 
 
 // Include() method
@@ -103,3 +124,22 @@ function render(){
 render()
 
  */
+
+
+
+
+
+// map() method 
+ 
+/* const distanceWalkedMilesArr = [140, 153, 161, 153, 128, 148]
+
+const conversionFactorMilesToKm = 1.6
+
+function convertMilesToKms() {
+    return distanceWalkedMilesArr.map(function (distanceMiles, index) {
+        return `Month ${index}: ${distanceMiles * conversionFactorMilesToKm}KM`
+    })
+    console.log(distanceWalkedKmArr)
+}
+
+convertMilesToKms() */
