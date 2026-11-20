@@ -248,7 +248,18 @@ const totalRainfallJanuary = rainJanuaryByWeek.reduce(function(total, currentEle
 console.log(totalRainfallJanuary) */
 
 
-//reduce() method with objects 
+//reduce() method with objects
+
+/* import { itemsBoughtArr } from '/itemsBoughtArr.js'
+
+function calculateTotalCost(itemsBoughtArr, discount){
+    const total = itemsBoughtArr.reduce((total, currentItem) => 
+        total + currentItem.priceUSD, 0
+        )
+    return total - discount
+}
+
+console.log(calculateTotalCost(itemsBoughtArr, 10))  */
 
 
 
